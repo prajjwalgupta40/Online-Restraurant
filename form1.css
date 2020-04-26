@@ -1,0 +1,55 @@
+body{
+    background-image: url(background.jpg);
+}
+#a{
+    position: absolute;
+    top: 40px;
+    left: 450px;
+    font-family: Lucida Handwriting;
+    color: whitesmoke;
+
+}
+table{
+width: 400px;
+   position: absolute;
+   top: 150px;
+   left: 570px;
+   
+}
+th,td{
+    padding: 10px;
+    font: caption;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 19px;
+    color: black;
+}
+#b{
+    position: absolute;
+    left:610px;
+    top: 590px;
+    font-size: 35px;
+    
+}
+#c{
+    size: 40px;
+
+    position: absolute;
+    left: 745px;
+    top: 690px;
+}
+#d{
+    position: relative;
+    left: 1455px;
+    top: 48px;
+}
+input[type=text],[type="email"],[type=password] /* attribute type css*/
+   { width: 250px;
+    height: 30px;
+   }
+
+
+input:focus{
+    background-color: greenyellow;
+    
+}

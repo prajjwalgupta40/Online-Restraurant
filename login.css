@@ -1,0 +1,63 @@
+body{
+    background-image: url(background.jpg);
+}
+h1{
+    position: relative;
+    top: 40px;
+    font-family: Lucida Handwriting;
+    color: whitesmoke;
+
+    
+}
+
+  table{
+    width: 400px;
+       position: absolute;
+       top: 150px;
+       left: 570px;
+       
+    }
+    th,td{
+        padding: 10px;
+        font: caption;
+        text-align: center;
+        border: 2px solid black;
+        font-size: 19px;
+        color: black;
+    }
+   #a{
+       position: relative;
+       top: 400px;
+       left: 1250px;
+
+   }
+   #b{
+    position: absolute;
+    left:680px;
+    top: 400px;
+    font-size: 35px;
+    
+}
+#c{
+    size: 40px;
+
+    position: absolute;
+    left: 745px;
+    top: 490px;
+}
+#d{
+    position: relative;
+    left: 1455px;
+    top: -28px;
+}
+
+    input[type=text],[type="email"],[type=password] /* attribute type css*/
+   { width: 250px;
+    height: 30px;
+   }
+
+
+input:focus{
+    background-color: greenyellow;
+    
+}
